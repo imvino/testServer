@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.hello1 = async (event) => {
+module.exports.generateRandomNumber = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
